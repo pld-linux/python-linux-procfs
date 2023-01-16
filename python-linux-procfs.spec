@@ -1,11 +1,12 @@
 #
 # Conditional build:
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-linux-procfs.spec)
 
 Summary:	Linux /proc abstraction classes for Python 2
 Summary(pl.UTF-8):	Klasy abstrakcji linuksowego /proc dla Pythona 2
 Name:		python-linux-procfs
+# keep 0.7.0 here for python2 support (0.7.1 uses f-strings, thus requires 3.6+)
 Version:	0.7.0
 Release:	5
 License:	GPL v2
