@@ -8,7 +8,7 @@ Summary(pl.UTF-8):	Klasy abstrakcji linuksowego /proc dla Pythona 2
 Name:		python-linux-procfs
 # keep 0.7.0 here for python2 support (0.7.1 uses f-strings, thus requires 3.6+)
 Version:	0.7.0
-Release:	5
+Release:	6
 License:	GPL v2
 Group:		Libraries/Python
 Source0:	https://www.kernel.org/pub/software/libs/python/python-linux-procfs/%{name}-%{version}.tar.xz
